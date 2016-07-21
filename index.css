@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Adobe 楷体 Std R";
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width:100%;
+}
+#da{
+    height: 100vh;
+    background:url("img/daojian.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.aaa{
+    padding-top: 5%;
+    padding-left: 19%;
+    font-size: 7rem;;
+    color: #eff0f4;
+}
+
+ul{ padding-top: 1%;
+    padding-left: 61%;
+}
+li {
+    list-style-type: none;
+    margin: 1%;
+    font-size: 4rem;
+}
+a{
+    color: #eff0f4;
+    text-decoration: none;
+}
+@media  (min-width: 800px) and (max-width: 1200px) {
+    html {
+        font-size:40%;
+    }
+}
