@@ -1,0 +1,100 @@
+*{
+    margin: 0;padding: 0;
+}
+.boss{
+    max-width: 100%;
+    width: 720px;
+    margin: 0 auto;
+}
+.top{
+    background-color: #5fc0cd;
+    text-align:center;
+    line-height: 88px;;
+}
+.one,.two{
+    border:1px solid #5fc0cd;
+    font-size: 34px;
+    color: #5fc0cd;
+    border-radius: 7px;
+    padding: 19px 25px 15px 25px;
+    margin: 10px 0 10px 100px;
+}
+.one{
+    background-color: #55a8b3;
+}
+.two{
+    background-color: #ffffff;
+    margin-left: -24px;
+}
+.five1{
+    float: right;
+    margin-right: 30px;
+    margin-top: 22px;;
+}
+.top2{
+    font-size: 28px;
+    text-align:center;
+    overflow: hidden;
+    line-height: 80px;
+    border-bottom: solid 1px #e1e5e7;
+
+}
+#Q1{
+    padding-left: 25px;
+    padding-right: 12px;
+    border-right: solid 1px #e1e5e7;
+    margin-right: 50px;}
+#Q2{border-right: solid 1px #e1e5e7;
+    padding-right: 12px;
+    margin-right: 50px;;
+}
+.hh{
+    padding-left: 65px;
+}
+.xb{
+    margin-top: 28px;
+    border-bottom: solid 1px #e1e5e7;
+}
+.a1,.a3{
+    font-size: 28px;
+    padding-left: 30px;
+    padding-bottom: 19px;
+}
+.a2{
+    font-size: 28px;
+    padding: 3px 0  22px 73px;
+}
+.s2,.s1{
+    padding-right: 15px;
+}
+.shijian{
+    font-size: 30px;
+    color: #e63b0e;
+    float: right;
+    padding-right: 69px;
+}
+.over{
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 15px;
+    background-color: #f8fafb;
+    width: 100%;
+    max-width: 720px;
+    position: fixed;
+    bottom: 0px;
+ }
+.hou1,.hou3{
+   float: left;
+    margin: 12px 0  12px 141px;
+}
+.hou2{
+    float: left;
+    border: solid 1px #FFFFFF;
+    background-color: #5fc0cd;
+    border-radius: 48px;
+    padding: 29px;
+    margin: 0 -22px 0 100px;
+}
+.la{margin-top: 7px;}
+
+
