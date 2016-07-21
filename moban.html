@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 微软雅黑;
+        }
+        body{
+            background-color:#eff0f4;
+        }
+        .header{
+            padding-top: 2vh;
+            padding-bottom: 1vh;
+            background-color: #2d94fb;
+            width: 100%;
+            text-align: center;
+            clear: both;
+            height: 6vh;
+            font-size: 3vh;
+            clear: both;
+        }
+        #header1 {
+            float: left;
+            width: 33%;
+            text-align: left;
+            padding-left: 10px;
+        }
+        #header3{
+            float: right;
+            width:33%;
+            text-align: right;
+            padding-right: 10px;
+        }
+        img{
+            width: 46px;
+            height: 46px;
+            display: block;
+            margin: 0 auto;
+        }
+        .both{
+            width: 100%;
+            padding-top: 3vh;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        form{
+            width:100%;
+            font-size: 20px;
+        }
+        .form-content input{
+            border-bottom-style: none;
+            border-top-style:none ;
+            border-left:solid #eff0f4 4px;
+            border-right-style: none;
+            font-size: 10px;
+        }
+        .footer{
+            text-align: right;
+            width: 100%;
+            font-size: 15px;
+            padding-top: 20px;
+        }
+        .form-picture{
+            width:10%;
+            float: left;
+        }
+        .form-content{
+            width: 90%;
+            float: right;
+        }
+        .input-tel-password{
+            box-sizing: border-box;
+            padding-left: 2em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            width: 100%;
+            height: 20px;
+            vertical-align: middle;
+        }
+        .form-tel{
+            width: 100%;
+            height: 46px;
+            background-color:white;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .form-password{
+            margin-top: 2vh;
+            width: 100%;
+            height: 46px;
+            background-color: white;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .submit{
+            margin-top: 5vh;
+            background-color: #2d94fb;
+            text-align: center;
+            width: 100%;
+            height: 8.5vh;
+            font-size: 3.5vh;
+        }
+        .submit1{
+            padding-top: 4vh;
+        }
+        .footer input{
+            border-style:none;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div id="header1">关闭</div>
+    登录
+    <div id="header3">注册</div>
+</div>
+<div class="both">
+    <form>
+        <div class="form-tel">
+            <div class="form-picture">
+                <img src="picture/phonetb.png">
+            </div>
+            <div class="form-content">
+                <input type="tel" class="input-tel-password" name="tel" placeholder="输入手机号码">
+            </div>
+        </div>
+        <div class="form-password">
+            <div class="form-picture">
+                <img src="picture/lock.png">
+            </div>
+            <div class="form-content">
+                <input type="password" class="input-tel-password" placeholder="输入登录密码">
+            </div>
+        </div>
+        <div class="submit1">
+            <input type="submit" class="submit" value="登录">
+        </div>
+    </form>
+</div>
+<div class="footer">
+    <span >忘记密码？</span>
+</div>
+</body>
+</html>
