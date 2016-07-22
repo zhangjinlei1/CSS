@@ -3,7 +3,7 @@ html{
 }
 body{
     margin: auto;
-    /*max-width: 640px;*/
+    max-width: 640px;
     min-width: 640px;
 }
 img{
