@@ -1,0 +1,107 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: auto;
+    /*max-width: 640px;*/
+    min-width: 640px;
+}
+img{
+    max-width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.BOSS{
+    background-color: #f0f0f0;
+}
+.lead{
+    background-color: #29bde0;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+#la{
+    background: url("img/task6.png") no-repeat;
+    background-position: -2px -6px;
+    width: 34px;
+    height: 27px;
+    margin: 40px 0 21px 22px;
+}
+.lead1{
+    font-size: 3.4rem;
+    border: solid 1px #d0d0d0;
+    width: 88%;
+    margin: 0 auto;
+    text-align:center;
+    padding: 42px 0 42px 0;
+    background-color: #ffffff;
+}
+#la2{
+    background: url("img/task6.png") no-repeat;
+    background-position: -55px -4px;
+    width: 24px;
+    height: 40px;
+    margin-right: 14px;
+}
+#la2{
+    float: right;
+}
+.me{
+    width: 88%;
+    margin: auto;
+    text-align:center;
+    border: solid 1px #cecece;
+    margin-top: 25px;
+    background-color: #ffffff;
+    height: 72%;
+}
+#a1{
+    color: #fbb435;
+    text-align:center;
+    font-size: 3.7rem;
+    border-bottom: solid 2px #fdd793;
+    padding: 29px 0 25px 0;
+    margin-bottom: 29px;
+}
+#a2,#a3,#a4{
+    background-color: #69d1e9;
+    color: #ffffff;
+    padding: 50px 0 50px 0;
+    font-size: 3.2rem;
+    width: 72%;
+    margin: auto;
+}
+p{
+    font-size: 2.4rem;
+    color: #787878;
+    margin: 10px 0 10px 0;
+}
+.jian{
+    background: url("img/task6.png") no-repeat;
+    background-position: -5px -101px;
+    width: 25px;
+    height: 55px;
+    float: right;
+    margin-top: -93px;
+    margin-right: 19px;
+}
+.fuck{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.you1{
+    width: 18px;
+    background-color: #69d1e9;
+    height: 18px;
+    border-radius: 9px;
+    display:inline-block
+}
+.you{
+    width: 18px;
+    background-color: #f0f0f0;
+    height: 18px;
+    border-radius: 9px;
+    display:inline-block
+}
