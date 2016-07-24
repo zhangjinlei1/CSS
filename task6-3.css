@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.boss{
+    background-color: #29bde0;
+    max-width: 640px;
+    margin: auto;
+}
+.above{
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 83px;
+    border-bottom: solid 1px #74d4eb;
+}
+.picture{
+    float: left;
+    padding: 20px;
+}
+.picture2{
+    float: right;
+    padding: 20px;
+}
+.in{
+    text-align: center;
+}
+.picture3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.good{
+    font-size: 3.3rem;
+    color: #ffc865;
+    width:76%;
+    margin: auto;
+}
+.me p{
+    font-size: 2.6rem;
+    color: #fff;
+    padding-left: 76px; padding-top: 6px;
+}
+.me{
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+.me2{
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    border-bottom: solid 2px  #dddddd;
+}
+b{
+    font-size: 3rem;
+    padding-left: 75px;
+}
+span{
+    font-size: 2rem;
+    float: right;
+    color: #c7c7c7;
+    padding-right: 107px;
+    padding-top: 14px;
+}
+.me2 p{
+    font-size: 2.6rem;
+    padding-left: 75px;
+    margin: 3%;
+    color: #a6a6a6;
+}
+.ol{
+    background-color: #99dff0;
+    color: #FFFFFF;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+    padding-top: 20px;
+}
+.you{
+    font-size: 40px;
+    border: solid 0 #FFFFFF;
+    background-color: #f66f6f;
+    width: 36.8%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3%;
+    margin: 0 25px 19px 25px;
+    display: inline-block;
+
+}
+.zi{
+    text-decoration:none;
+    color: #FFFFFF;
+}
+.you2{
+    font-size: 40px;
+    border: solid 0 #FFFFFF;
+    background-color: #fbb435;
+    width: 36.8%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3%;
+    display: inline-block;
+}

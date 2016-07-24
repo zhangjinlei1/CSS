@@ -133,24 +133,25 @@ audio{
 .op:hover li{
     opacity: 1;
 }
-
 .pig{
+    background-color: #29bde0;
     position: fixed;
     bottom: 0;
-    background-color: #29bde0;
-    border-top: 2px solid #ffffff;
-    width: 100%;
-    max-width: 640px;
-    min-width: 320px;
+    width: 640px;
+
 }
-.zu{
-    display: block;
-    width: 76%;
+.dog{
     background-color: #fbb435;
+    font-size: 40px;
+    width:76%;
+    /*margin: auto;*/
     text-align: center;
-    margin: 20px 52px 20px 52px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 40px 77px 40px 77px;
+
 }
-
-
-
+.me{
+    text-decoration:none;
+}
 
