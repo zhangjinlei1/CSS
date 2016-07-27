@@ -27,6 +27,13 @@ body{
     padding: 40px 328px 40px 0;
     text-align: right;
 }
+.navigation img{
+    float: left;
+    padding-left:170px;
+}
+.sorry{
+    margin-bottom: 20px;
+}
 .navigation a{
     text-decoration:none;
     color: #FFFFFF;
