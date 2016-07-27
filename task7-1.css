@@ -160,6 +160,9 @@ color: #999999;
 .op .win{
     background-color: #29b078;
 }
+.op li:hover{
+    background-color: #29b078;
+}
 .op ul{
     width: 107px;
     margin: auto;

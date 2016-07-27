@@ -30,7 +30,11 @@ body{
 .navigation a{
     text-decoration:none;
     color: #FFFFFF;
-    padding: 0 35px 0 35px;
+    padding: 0 35px 35px 35px;
+    border-bottom: 4px solid transparent;
+}
+.navigation a:hover{
+    border-bottom: 4px solid #FFFFFF;
 }
 .bottom{
     background-color: #26a26f;}

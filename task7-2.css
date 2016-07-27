@@ -72,6 +72,9 @@ body{
 .tudouwang{
     background-color: #f9a372;
 }
+.two a:hover{
+    background-color: #f9a372;
+}
 .boss2{
     width: 870px;
     background-color: #FFFFFF;
@@ -99,7 +102,6 @@ body{
     line-height: 28px;
     font-size: 14px;
     color: #999999;
-    /*margin-bottom: 118px;*/
 }
 .introduce{
     padding-bottom: 180px;
