@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Microsoft YaHei, serif;
+    font-size: 62.5%;
+}
+body{
+    min-width: 1200px;
+    width: 100%;
+    background-color: #fafafa;
+}
+.img{
+    width: 100%;
+}
+.push{
+    width: 100%;
+    min-width: 1200px;
+}
+.cooperation{
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+}
+.page{
+    font-size: 16px;
+    padding: 33px 0;
+}
+.me{
+    overflow: hidden;
+    margin-bottom: 227px;
+}
+.page span{
+    color: #29b078;
+}
+.boss{
+    width: 303px;
+    background-color: #FFFFFF;
+    float: left;
+}
+.one h3{
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: solid 1px #e6e6e6;
+}
+.boss{
+}
+.two{
+    width: 90px;
+    margin: auto;
+    padding-bottom: 37px;
+}
+.two li{
+    list-style-type:none;
+    font-size: 14px;
+    color: #29b078;
+    padding-top: 40px;
+}
+.two a{
+    border:  2px solid #ff640c;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+.tudouwang{
+    background-color: #f9a372;
+}
+.boss2{
+    width: 870px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 25px;
+}
+.op{
+    display: table;
+    border-bottom: 1px solid #e6e6e6;
+}
+.logo{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px 35px 50px 80px;
+}
+.op p{
+    line-height: 30px;
+    font-size: 14px;
+    color: #999999;
+    float: left;
+    padding: 25px 35px 25px 0;
+}
+.introduce p{
+    padding: 45px 77px 0 65px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #999999;
+    /*margin-bottom: 118px;*/
+}
+.introduce{
+    padding-bottom: 180px;
+}

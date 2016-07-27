@@ -14,13 +14,12 @@ body{
     color: #29b078;
     font-size: 14px;
     line-height: 40px;
+    width: 1200px;
+    margin: auto;
 }
 .contact a{
     float: right;
-    padding: 7px 361px 7px 0;
-}
-.contact span{
-    padding-left: 361px;
+    padding: 7px 0px 7px 0;
 }
 .navigation{
     font-size: 16px;
