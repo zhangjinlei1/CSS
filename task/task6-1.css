@@ -23,7 +23,7 @@ img{
     margin-bottom: 25px;
 }
 #la{
-    background: url("img/task6.png") no-repeat;
+    background: url("../img/task6.png") no-repeat;
     background-position: -2px -6px;
     width: 34px;
     height: 27px;
@@ -39,7 +39,7 @@ img{
     background-color: #ffffff;
 }
 #la2{
-    background: url("img/task6.png") no-repeat;
+    background: url("../img/task6.png") no-repeat;
     background-position: -55px -4px;
     width: 24px;
     height: 40px;
@@ -79,7 +79,7 @@ p{
     margin: 10px 0 10px 0;
 }
 .jian{
-    background: url("img/task6.png") no-repeat;
+    background: url("../img/task6.png") no-repeat;
     background-position: -5px -101px;
     width: 25px;
     height: 55px;

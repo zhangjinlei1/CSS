@@ -19,14 +19,14 @@ html{
 }
 .one{
     display: block;
-    background:url("img/task6.png")no-repeat 0 -50px;
+    background:url("../img/task6.png")no-repeat 0 -50px;
     width: 39px;
     height: 40px;
     float: left;
 }
 .two{
     display: block;
-    background:url("img/task6.png")no-repeat -54px -55px;
+    background:url("../img/task6.png")no-repeat -54px -55px;
     width: 36px;
     height: 36px;
     float: right;
@@ -41,7 +41,7 @@ span{
 }
 #a{
     display: block;
-    background:url("img/task6.png")no-repeat -45px -101px;
+    background:url("../img/task6.png")no-repeat -45px -101px;
     width: 56px;
     height: 58px;
     float: right;
@@ -98,27 +98,27 @@ audio{
 
 }
 .yi{
-    background: url("img/task6.png") no-repeat 0 -156px;
+    background: url("../img/task6.png") no-repeat 0 -156px;
     width: 30px;
     height: 26px;
     display: inline-block;
 }
 .er{
-    background: url("img/task6.png")no-repeat -36px -154px;
+    background: url("../img/task6.png")no-repeat -36px -154px;
     width: 18px;
     height: 20px;
     padding: 3px;
     display: inline-block;
 }
 .san{
-    background: url("img/task6.png")no-repeat -61px -154px;
+    background: url("../img/task6.png")no-repeat -61px -154px;
     width: 26px;
     height: 25px;
     padding: 1px;
     display: inline-block;
 }
 .si{
-    background: url("img/task6.png")no-repeat -98px -156px;
+    background: url("../img/task6.png")no-repeat -98px -156px;
     width: 14px;
     height: 14px;
     padding: 6px;
