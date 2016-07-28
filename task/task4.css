@@ -1,0 +1,67 @@
+html body{
+    background-color:#eff0f4;
+}
+.tou{
+    background-color:#eff0f4;
+    width:100%;
+}
+.one{
+    background-color:#5fc0cd;
+    color:#ffffff;
+    text-align: center;
+    font-size: 32px;
+    height: 88px;
+    padding-right: 30px;
+    padding-left: 31px;
+}
+.one{line-height: 88px;}
+.zi1{float: left;}
+.zi2{font-size: 36px;}
+.zi3{float:right}
+.shen{
+    background-color: #fff;
+    margin-top: 16px;
+}
+.xian{
+    border-right:solid 2px #e1e5e7;
+    width: 27px;
+    padding-right: 46px;
+    padding-left: 42px;
+    margin-top: 30px;
+    float: left;}
+.shoujihao{
+    height: 100px;
+    font-size: 32px;
+    border-style: none;
+    margin-left: 32px;
+}
+.mima{
+    border-right:solid 2px #e1e5e7;
+    width: 30px;
+    padding-right: 46px;
+    padding-left: 39px;
+    margin-top: 30px;
+    float: left;
+}
+.mimahao{
+    height: 100px;
+    font-size: 32px;
+    border-style: none;
+    margin-left: 32px;
+}
+.di{
+    margin-top: 69px;
+}
+.denglu{
+    height: 100px;
+    width: 100%;
+    background-color: #5fc0cd;
+    font-size: 36px;
+    letter-spacing: 19px;
+    color:#ffffff;
+}
+p{
+    font-size: 32px;
+    float: right;
+    padding-right: 34px;
+    color: #5fc0cd;}
