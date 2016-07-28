@@ -10,6 +10,7 @@ body{
     min-width: 1200px;
     width: 100%;
 }
+img { max-width: 100%;}
 .contact{
     color: #29b078;
     font-size: 14px;
