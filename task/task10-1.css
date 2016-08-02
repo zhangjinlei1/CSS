@@ -1,0 +1,225 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.subject{
+    background-color: #fafafa;
+}
+.logo{
+    background: url("../img/Student.png")no-repeat;
+    height: 66px;
+    width: 43px;
+    margin: auto;
+}
+.logo1{
+    background: url("../img/Student1.png")no-repeat;
+    height: 66px;
+    width: 43px;
+    margin: auto;
+}
+.logo2{
+    background: url("../img/Student2.png")no-repeat;
+    height: 66px;
+    width: 60px;
+    margin: auto;
+}
+.logo3{
+    background: url("../img/Student3.png")no-repeat;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.fruit{
+    padding: 29px 0 0 99px;
+    border-left: dashed 1px #dedede;
+}
+.content1{
+    margin-top: 158px;
+}
+.content1 p{
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #999999;
+}
+.content1 span{
+    font-size: 1.8rem;
+    color: #26a26f;
+}
+@media screen and (max-width: 767px){
+    .fruit{
+        text-align: center;
+        padding-left: 0;
+    }
+}
+.study{
+    text-align: center;
+    margin-top: 120px;
+}
+.number{
+    border: 1px solid #efeeee;
+    height: 65px;
+    width: 65px;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #29b078;
+    font-size: 1.8rem;
+    margin-right: 17px;
+}
+.content2 p{
+    font-size: 1.4rem;
+    color: #a8a8a8;
+    width: 150px;
+    line-height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.content2 li{
+    list-style-type: none;
+    margin:  40px 0;
+    height: 75px;
+}
+.direction{
+    display: inline-block;
+    background: url("../img/Student4.png") no-repeat;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: -14px;
+}
+@media screen and (max-width: 767px){
+    .content2 li{
+        text-align: center;
+        padding-left: 0;
+    }
+}
+.photo{
+    display:block;
+    background: url("../img/tutor.png") no-repeat 0 -18px;
+    border: 1px solid #efeeee;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: auto;
+}
+.photo3{
+    display:block;
+    background: url("../img/tutor3.png") no-repeat -15px -10px;
+    border: 1px solid #efeeee;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: auto;
+}
+.photo1{
+    display:block;
+    background: url("../img/tutor1.png") no-repeat -15px -23px;
+    border: 1px solid #efeeee;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: auto;
+}
+.photo2{
+    display:block;
+    background: url("../img/tutor2.png") no-repeat -32px -28px;
+    border: 1px solid #efeeee;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: auto;
+}
+.content3 h3{
+    text-align: center;
+}
+.content3 p{
+
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 28px;
+    font-size: 1.6rem;
+    color: #999999 ;
+}
+.content3 li{
+    padding-top: 20px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.content3{
+    margin-top: 60px;
+}
+.content3 div{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+}
+.dot a{
+    border: solid 1px #e4e4e4;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.dot1{
+    background-color: #29b078;
+}
+.dot{
+    text-align: center;
+    margin: 23px 0 110px 0;
+}
+.icon li{
+    list-style-type: none;
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    background: white;
+    padding: 6rem 2.5rem;
+}
+.icon li:hover{
+    box-shadow: 0 0 5px #999;
+}
+.icon img{
+    max-width: 100%;
+    height: auto;
+}
+.icon{
+    margin-top: 67px;
+    margin-bottom: 88px;;;
+}
+.link{
+    background-color: #FFFFFF;
+}
+.link h3{
+    margin-top: -85px;
+    margin-bottom: 22px;
+}
+.link li{
+    color: #999999;
+    font-size: 1.4rem;
+    list-style: inside;
+    line-height: 39px;
+    padding: 5px;
+    margin: 9px;
+}
+@media (min-width: 767px) and (max-width: 970px){
+  html{
+    font-size: 50%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .link {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    html{
+        font-size: 40%;
+    }
+}
