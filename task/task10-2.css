@@ -20,6 +20,7 @@ html{
 }
 .enterprise{
     background-color: #FFFFFF;
+    margin-right: 50px;
 }
 .enterprise h4{
     color: #333333;
@@ -67,7 +68,6 @@ li{
 }
 .potato{
     background-color: #FFFFFF;
-    margin-left: 50px;
     margin-bottom: 200px;
 }
 .potato1{
