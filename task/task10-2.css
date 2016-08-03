@@ -1,0 +1,100 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.game img{
+    width: 100%;
+}
+.tasks{
+    background-color: #fafafa;
+ }
+.cooperation span{
+    color: #29b078;
+    font-size: 1.6rem;
+}
+.cooperation p{
+    margin: 30px 0;
+}
+.enterprise{
+    background-color: #FFFFFF;
+}
+.enterprise h4{
+    color: #333333;
+    border-bottom: solid 1px #e6e6e6;
+    padding: 19px;
+    text-align: center;
+}
+.enterprise a{
+    text-decoration:none;
+    color: #29b078;
+    text-align: center;
+}
+.spot{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border: solid 1px #ff640d;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.enterprise li{
+    line-height: 5rem;
+    width: 86px;
+    display: block;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+.enterprise a:hover{
+    color: #ff7f02;
+}
+
+.enterprise a:hover span{
+  background-color: #ff7f02;
+}
+.spot1{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border: solid 1px #ff640d;
+    border-radius: 50%;
+    margin-right: 6px;
+    background-color: #f9a372;
+}
+.potato{
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+.potato1{
+    padding: 50px 0;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.potato1 img{
+    padding: 40px 30px 60px 80px;
+    float: left;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.potato1 span{
+    font-size: 1.4rem;
+    color: #999999;
+    line-height: 25px;
+    padding-right: 20px;
+}
+.potato p{
+    padding: 30px;
+    line-height: 25px;
+    font-size: 1.4rem;
+    color: #999999;
+    margin: auto;
+    text-indent: 2.8rem;
+}
+p.op{
+    padding-bottom: 100px;
+}
