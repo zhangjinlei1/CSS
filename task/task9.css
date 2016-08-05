@@ -183,7 +183,7 @@ a{
     vertical-align: middle;
 }
 .blue input[type=radio]:checked+span{
-    border: solid 7px #1d7ad9;
+    border: solid 6px #1d7ad9;
     width: 5px;
     height: 5px;
 }

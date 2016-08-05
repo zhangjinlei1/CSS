@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="task12.css">
+    <title>任务12响应式</title>
+</head>
+<body>
+<!-- 定制箱导航栏 -->
+<div class="whole">
+    <div class="whole-top">
+        <div class="top1">
+            <div class="one">客服热线：010-594-78634</div>
+            <ul class="two">
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"></div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbar-collapse">
+                    <ul class="top2 nav navbar-nav navbar-right">
+                        <li><a href="#"><b>首页</b></a></li>
+                        <li><a href="#"><b>在线定制</b></a></li>
+                        <li><a href="#"><b>标准箱</b></a></li>
+                        <li><a href="#"><b>品质保障</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="whole-body">
+        <ul class="three">
+            <li class="three1">
+                <a href="#">
+                    <div class="op">
+                        <p>1</p>
+                    </div>
+                    <span>1,纸箱定制</span>
+                </a>
+            </li>
+            <li class="three2">
+                <a href="#">
+                    <div class="op2">
+                        <p>2</p>
+                        2,选择数量
+                    </div>
+                </a>
+            </li>
+            <li  class="three2">
+                <a href="#">
+                    <div class="op2">
+                        <p>3</p>
+                        3,上传附件
+                    </div>
+                </a>
+            </li>
+            <li class="three2">
+                <a href="#">
+                    <div class="op2">
+                        <p>4</p>
+                        4,确认下单
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 定制箱步骤栏 -->
+<div class="container">
+    <div class="step">
+        <p>请您按照以下步骤来定制您的纸箱</p>
+    </div>
+    <div class="choice">
+        <img src="../img/carton1.jpg"><span>选择箱型</span>
+    </div>
+<!-- 选择箱型 -->
+    <ul class="step1 row">
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g1">
+                <input type="radio" value="me1" name="xx" id="g1" class="hi1"><span></span>对口箱
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g2">
+                <input type="radio" value="me2" name="xx" id="g2" class="hi1"><span></span>飞机盒
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g3">
+                <input type="radio" value="me3" name="xx" id="g3" class="hi1"><span></span>天地盖
+            </label>
+        </li>
+        <div  class="me col-lg-6 col-md-2 col-sm-2 col-xs-2">
+            <select>
+                <option value="">查看详请</option>
+            </select>
+        </div>
+    </ul>
+    <div class="choice">
+        <img src="../img/carton2.jpg"><span>确定尺寸</span>
+    </div>
+<!-- 确认尺寸 -->
+    <ul class="step1 row" >
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g4">
+                <input type="radio" value="me1" name="xx" id="g4" class="hi1"><span></span>外径
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>长<input type="text" name="zz" id="b1">mm</a>
+            </form>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>宽<input type="text" name="zz" id="b2">mm</a>
+            </form>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>高<input type="text" name="zz" id="b3">mm</a>
+            </form>
+        </li>
+    </ul>
+    <ul class="step1 row" >
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g5">
+                <input type="radio" value="me1" name="xx" id="g5" class="hi1"><span></span>内径
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>长<input type="text" name="zz" id="b4">mm</a>
+            </form>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>宽<input type="text" name="zz" id="b5">mm</a>
+            </form>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <form action="" class="ol">
+                <a>高<input type="text" name="zz" id="b6">mm</a>
+            </form>
+        </li>
+        <div  class="me1 col-lg-4 col-md-2 col-sm-2 col-xs-2">
+            <select>
+                <option value="">查看详请</option>
+            </select>
+        </div>
+    </ul>
+    <div class="choice">
+        <img src="../img/carton3.png"><span>选择材质</span>
+    </div>
+<!-- 选择材质 -->
+    <ul class="step1 row">
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g11">
+                <input type="radio" value="me1" name="xx" id="g11" class="hi1"><span></span>三层A瓦优质
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g12">
+                <input type="radio" value="me2" name="xx" id="g12" class="hi1"><span></span>三层A瓦优质
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g13">
+                <input type="radio" value="me3" name="xx" id="g13" class="hi1"><span></span>三层A瓦优质
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g14">
+                <input type="radio" value="me3" name="xx" id="g14" class="hi1"><span></span>三层A瓦优质
+            </label>
+        </li>
+        <li class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+            <label for="g15">
+                <input type="radio" value="me3" name="xx" id="g15" class="hi1"><span></span>三层A瓦优质
+            </label>
+        </li>
+        <div  class="me col-lg-2 col-md-2 col-sm-2 col-xs-2">
+            <select>
+                <option value="">查看详请</option>
+            </select>
+        </div>
+    </ul>
+<!-- 下一步 -->
+    <div class="next-step">
+        <a href="#">下一步</a>
+    </div>
+</div>
+<!-- 定制箱尾页 -->
+<div class="footer">
+    <div class="container">
+        <ul class="footer1 row">
+            <li class="foot col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <p>51包装网—纸箱包装首选服务平台</p>
+            </li>
+            <li class="foot1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <a href="#"><p><span>关于我们</span><span>配送流程</span><span>联系我们</span></p>
+                <p><span>下单指南</span><span>媒体介绍</span></p></a>
+            </li>
+            <li class="foot2 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <p>
+                TEL:400-0000-000<br>
+                企业qq：123456789<br>
+                微信号：XXXXXX<br>
+                </p>
+                <img src="../img/QR%20code.png">
+            </li>
+        </ul>
+    </div>
+    <div class="footer2">
+        北京五一包装科技有限公司Copyright ©201551baozhuang.com015   All rights reserved.   京icp备99999999-1
+    </div>
+</div>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="../bootstrap-3.3.5-dist/jquery-3.1.0.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
