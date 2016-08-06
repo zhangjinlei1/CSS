@@ -9,7 +9,7 @@ html{
 body{
     max-width: 640px;
     margin: auto;
-    width: 100%;
+    min-width: 320px;
  }
 li{
     list-style-type: none;
@@ -80,6 +80,6 @@ img{
 
 @media (max-width: 500px){
     html{
-        font-size: 50%;
+        font-size: 45%;
     }
 }
