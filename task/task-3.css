@@ -1,56 +1,85 @@
 *{
-    max-width: 640px;
-    color:#ffffff;/*字体色白色*/
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
-div{display:block}
-img { max-width: 100%;}
-.quantu{
-    background-color:#22292c;
+html{
+    font-size: 62.5%;
+    font-family: Microsoft YaHei, serif
+}
+body{
+    max-width: 640px;
+    margin: auto;
     width: 100%;
-    height: 9%;
-    position: absolute;}
-.tu1{position:absolute;
-    margin: 3.75% 2.1% 2.4% 2.6%;}
-.zi1{
-    position: absolute;
-    margin: 4.5% 33px 34px 51px;
-    font-size: 1.6em;}
-.zi2{position: absolute;
-    left: 45%;
-    font-size: 1.7em;
-    margin-top: 20px;}
-.tu2{position: absolute;
-    top: 40px;
-    left: 585px;}
-.quantu2{
-    width:100%;
-    height: 1009px;
-    background-color: #68cdd5;  }
-.tu3{
+ }
+li{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background-color: #22292c;
+}
+.header {
+    overflow: hidden;
+}
+.return a{
+    text-decoration:none;
+    font-size: 2.6rem;
+    line-height: 88px;
+    color: #FFFFFF;
     float: left;
-    position: absolute;
-    margin: 108px 0 0 35px;}
-.tu4{position: absolute;
-    margin: 204px 261px 823px 197px;}
-.zi3{font-size: 1.75em ;
-    top: 397px;
-    position: absolute;
-    max-width: 80%;
-    width: 475px;
-    margin-left: 90px;
-    line-height: 2.55rem;}
-.tu5{position: absolute;
-    margin-top: 680px;
-    margin-left: 136px;}
-.zi4{position: absolute;
-    margin-top: 790px;
-    margin-left: 121px;
-    font-size: 1.7em;}
-.tu6{position: absolute;
-    margin-top: 690px;
-    margin-left: 415px;}
-.zi5{position: absolute;
-    font-size: 1.75em;
-    margin-top: 790px;
-    margin-left: 410px;}
+}
+.return img{
+    vertical-align: middle;
+    padding: 0 5px 0 15px;
+}
+.mirror{
+    color: #FFFFFF;
+    font-size: 3.3rem;
+    line-height: 88px;
+    text-align: center;
+}
+.load {
+    float: right;
+    line-height: 88px;
+    margin-right: 17px;
+}
+.page{
+    background-color: #68cdd5;
+}
+.return-two img{
+    padding: 2.4% 0 0  5.4%;
+}
+.grape{
+    text-align: center;
+    padding-top: 4.2%
+}
+.introduce{
+    width: 70.6%;
+    margin: auto;
+    font-size: 3rem;
+    line-height: 55px;
+    color: #FFFFFF;
+    padding-top: 12.3%;
+}
+.icon{
+    overflow: hidden;
+    padding: 17.6% 0 19.8% 0;
+}
+.icon p{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.icon span{
+    display: block;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}
