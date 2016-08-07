@@ -1,103 +1,160 @@
-
-*{padding: 0;margin: 0;}
-.Upward{
-    background-color:#5fc0cd;
-    font-size: 36px;
-    text-align: center;
-    padding: 27px 0 23px 35px;
-    color: #fff;}
-a{text-decoration: none;}
-.guide
-    {float: left;}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Microsoft YaHei, serif;
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
 .whole{
     max-width: 720px;
     margin: auto;
+    min-width: 320px;
 }
-.chart{
-    background-image: url("../img/beijing.png");
-    background-size:cover;
+.header{
+    background-color: #5fc0cd;
     overflow: hidden;
+}
+.header img{
+    position: absolute;
+    margin-left:2.6%;
+    padding: 20px 0;
+}
+.header p{
+    text-align: center;
+    font-size: 3.6rem;
     color: #ffffff;
+    line-height: 88px;
 }
-.portrait{
-    border: 1px solid;
-    width: 170px;
-    height: 170px;
-    background-image: url("../img/touxiang.png");
-    background-size:cover;
-    border-radius: 90px;
-    margin: 79px 41px 79px 30px;
+.introduce{
+    background: url("../img/beijing.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo{
+    width: 23%;
     float: left;
-    background-color: white;
+    margin: 10%
+}
+.name{
+    color: #FFFFFF;
+    list-style-type: none;
+    padding: 14% 0;
+}
+.name li:nth-child(1){
+    font-size: 3.6rem;
+}
+.name li:nth-child(2){
+    font-size: 3.2rem;
+}
+.name span{
+    padding-left: 2%;
+}
+.name img{
+    width: 3.5%;
+}
+@media (max-width: 550px) {
+    html{
+        font-size: 40%;
     }
-.portrait{border: none;}
-.me{margin-top: 117px;  }
-.word{font-size: 36px;}
-.two{font-size: 28px;}
-.three{font-size: 24px;
-    margin-top: 25px;}
-.love{font-size: 32px; }
-.function{
+}
+@media (max-width: 450px) {
+    html{
+        font-size: 35%;
+    }
+}
+.skill{
+    font-size: 3.2rem;
+    padding: 5% 0 5% 4%;
     border-bottom: solid 1px #e1e5e7;
-}
-p {
-    border-left: solid 3px #5fc0cd;
-    margin: 36px 0 36px 30px;
-    padding-left: 26px;
-}
-.xian1{
-    border-right: solid 1px #e1e5e7;
-    padding-left: 10px;
-    padding-right: 20px;
 
 }
-.xian2{
-    padding-right: 10px ;
+.skill span{
+    border-left: solid 3px #5fc0cd;
+    padding-left: 3%;
 }
-.a1{margin: 25px 0 25px 26px; }
-.a2{
-    border-top: solid 1px #e1e5e7;
-    margin: 0 0 25px 26px;padding-top: 25px;}
-.cb{
-    border-right: solid 1px #e1e5e7;
-    padding-right: 26px;
+.home{
+    padding: 5% 0 5% 0;
+    border-bottom: solid 1px #e1e5e7;
+    width: 95%;
+    margin-left: 3%;
+    list-style-type: none;
+    font-size: 3.2rem;
 }
-.cb2{
-    padding-left: 27px;
+.home img{
+    padding: 0 3%;
+    width: 4%;
 }
-ul{
-    list-style-type:none;
-    margin-top: 10px;
+.home span{
+    display: inline-block;
+    border-right: 1px solid #e1e5e7;
+    padding-right: 3%;
 }
-.cb3{
-    padding-left: 27px;
-    width:70%;
+.home1{
+    padding: 5% 0;
+    border-bottom: solid 1px #e1e5e7;
+    width: 95%;
+    margin-left: 3%;
+    list-style-type: none;
+    font-size: 3.2rem;
+}
+.home1 span{
+    display: inline-block;
+    border-right: 1px solid #e1e5e7;
+    padding:  0 3%;
+    color: #999999;
+}
+.home1 p{
+    padding-left: 3%;
+    display: inline;
+}
+strong{
+    padding-left: 3%;
+    color: #e26163;
+}
+.home2{
+    list-style-type: none;
+    padding: 5% 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+.home2 span{
+    font-size: 3.2rem;
+    color: #999999;
+    padding: 0 3% 0 6%;
+    border-right: 1px solid #e1e5e7;
+    vertical-align: middle;
+    margin-right: 3%;
+}
+.home2 p{
+    font-size: 2.5rem;
+    width: 55%;
     display: inline-block;
     vertical-align: middle;
 }
-.wei{
-    border-top: solid 1px #e1e5e7;
+.footer{
+    text-align: center;
+    margin-top: 10%;
 }
-.kuang1{
-    margin-top: 80px;
-}
-.lala{
-    background-color: #fff;
-    font-size: 34px;
-    padding: 27px 100px 27px 100px;
+.footer button:nth-child(1){
+    width: 43%;
+    padding: 4% 0;
     border-radius: 10px;
-    border:1px solid #5fc0cd;
-    margin-left: 37px;
-
+    background-color: #FFFFFF;
+    color: #5fc0cd;
+    border: solid 1px #5fc0cd;
+    margin: 0 1%;
+    font-size: 3.4rem;
 }
-.lala1{
+.footer button:nth-child(2){
+    width: 43%;
+    padding: 4% 0;
+    border-radius: 10px;
+    margin: 0 1%;
     background-color: #5fc0cd;
-    font-size: 34px;
-    padding: 27px 100px 27px 100px;
-    border-radius: 10px;
-    color: #ffffff;
-    margin-left: 27px;
+    color: #FFFFFF;
+    border: solid 1px #5fc0cd;
+    font-size: 3.4rem;
 }
-
-
-
