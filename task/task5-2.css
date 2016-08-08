@@ -115,6 +115,11 @@ li{
 }
 .ending{
     background-color: #f8fafb;
+    position: fixed;
+    width: 100%;
+    max-width: 720px;
+    bottom: 0;
+    min-width: 320px;
 }
 .ending-one{
     width: 8%;
