@@ -76,6 +76,9 @@ a{
 .header-three p{
     padding: 0.5% 0;
 }
+.header-three span{
+    padding: 0 4%;
+}
 .op{
     width: 75%;
     margin: auto;
