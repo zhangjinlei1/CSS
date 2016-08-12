@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变色的九宫格</title>
+    <style type="text/css">
+        .box{
+            max-width: 100%;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border: solid 1px #fafafa;
+            background-color: #fafafa;
+        }
+        .box-op{
+            width: 31%;
+            background-color: rgb(232,131,13);
+            height: 31%;
+            float: left;
+            margin: 1%;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+    <div class="box-op"></div>
+</div>
+</body>
+<script type="text/javascript">
+    var op=0;
+    function boxcolor(){
+        var a="#e8830d";
+        var color = ["red","blue","black"];//颜色数组
+        var colorone = Math.floor(Math.random()*3);//定义颜色的随机数
+        var box= document.getElementsByClassName("box-op");//绑定Class
+        var colortwo = Math.floor(Math.random()*9);//定义盒子随机数
+        box[colortwo].style.backgroundColor=color[colorone];//变色
+        box[op].style.backgroundColor=a;
+        op=colortwo;
+    }
+    setInterval('boxcolor();',"1000");
+</script>
+</html>
+
+
