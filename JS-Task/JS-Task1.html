@@ -5,8 +5,8 @@
     <title>变色的九宫格</title>
     <style type="text/css">
         .box{
-            max-width: 100%;
-            width: 500px;
+            max-width: 500px;
+            min-width: 500px;
             height: 500px;
             margin: auto;
             border: solid 1px #fafafa;
@@ -39,15 +39,17 @@
     var op=0;
     function boxcolor(){
         var a="#e8830d";
-        var color = ["red","blue","black"];//颜色数组
+        var color = ["red","green","blue"];//颜色数组
+        var colorname=["红色","绿色","蓝色"];
         var colorone = Math.floor(Math.random()*3);//定义颜色的随机数
         var box= document.getElementsByClassName("box-op");//绑定Class
         var colortwo = Math.floor(Math.random()*9);//定义盒子随机数
         box[colortwo].style.backgroundColor=color[colorone];//变色
         box[op].style.backgroundColor=a;
         op=colortwo;
+        console.log("格子"+(colortwo + 1) +"变成了"+colorname[colorone]);
     }
-    setInterval('boxcolor();',"1000");
+    setInterval("boxcolor()","1000");
 </script>
 </html>
 
