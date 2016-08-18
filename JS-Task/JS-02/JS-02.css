@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+html{
+    font-family: Microsoft YaHei, serif;
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+.whole{
+    max-width: 640px;
+    margin: auto;
+    min-width: 320px;
+    background-color: #f0f0f0;
+}
+.header{
+    background-color: #29bde0;
+    overflow: hidden;
+    text-align: center;
+    font-size: 3.4rem;
+    color: #FFFFFF;
+    padding: 2% 2%;
+}
+.header img{
+    vertical-align: middle;
+    max-width: 90%;
+}
+.logo1{
+    float: left;
+}
+.logo2{
+    float: right;
+}
+.header p{
+    line-height: 4rem;
+}
+.subject{
+    width: 94.5%;
+    margin: 3% auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.matching{
+    overflow: hidden;
+    width: 100%;
+    height: 45rem;
+}
+
+.game-one{
+    display: table;
+    float: left;
+    height: 100%;
+    width: 20%;
+    padding: 0 6%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #d9d9d9;
+}
+.game-font{
+    display: table-cell;
+    font-size: 3.6rem;
+    vertical-align: middle;
+}
+.game-two{
+    float: left;
+    height: 86.66%;
+    width: 80%;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    font-size: 2.6rem;
+    color: #999999;
+    overflow-y: auto;
+}
+.game-three{
+    float: left;
+    height: 13.33%;
+    width: 80%;
+    font-size: 2.8rem;
+    color: #29bde0;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: none;
+}
+@media (max-width: 590px) {
+    html{
+        font-size: 40%;
+    }
+}
+@media (max-width: 450px) {
+    html{
+        font-size: 35%;
+    }
+}
+.phrase{
+    width: 94.5%;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.phrase-one{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.phrase-one p{
+    font-size: 2.8rem;
+    color: #d7d7d7;
+    border-bottom: 2px solid #d7d7d7;
+    padding: 4% 0;
+}
+.game-num{
+    width: 90%;
+    margin: auto;
+    font-size: 2.8rem;
+    padding: 3% 0 3% 0;
+}
+.game-num input{
+    height: 4rem;
+    font-size: 2.8rem;
+    color: #fab344;
+    text-align: center;
+    background-color: #ebeced;
+    width: 5rem;
+    margin: 0 3%;
+}
+.game-num img{
+    padding:5% 0 0 2%;
+}
+.phrase-two{
+    background-color: #FFFFFF;
+    width: 94.5%;
+    margin: 3% auto 0 auto;
+}
+
+.button-two{
+    margin: auto;
+    width: 94.5%;
+}
+.phrase-three{
+    width: 100%;
+    background-color: #fab344;
+    color: #FFF;
+    border: none;
+    font-size: 4.0rem;
+    padding: 4% 0;
+    cursor: pointer;
+    margin: 4% 0;
+}

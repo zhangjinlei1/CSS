@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玩家分配页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="JS-02.css" type="text/css">
+</head>
+<body>
+<div class="whole">
+    <div class="header">
+        <a href="#" class="logo1"><img src="JS2-1.png"></a>
+        <a href="#" class="logo2"><img src="JS2-2.png"></a>
+        <p>参数设置</p>
+    </div>
+    <div class="subject">
+        <div class="matching">
+            <div class="game-one">
+                <p class="game-font">玩家配比</p>
+            </div>
+            <div class="game-two">
+                <ul id="role"></ul>
+            </div>
+            <button type="button" class="game-three" onclick="playgame()">
+                点击设置<img src="JS2-3.png">
+            </button>
+        </div>
+    </div>
+    <div class="phrase">
+        <div class="phrase-one">
+            <p>水民词组</p>
+            <p>幽灵词组</p>
+        </div>
+    </div>
+    <div class="phrase-two">
+        <div class="game-num">
+            <label>
+                玩家人数<input type="text" id="num" value="4"/>人（输入4~16的整数）
+            </label>
+            <img src="JS2-4.png">
+        </div>
+    </div>
+    <div class="button-two">
+        <button type="button" class="phrase-three" onclick="start()">
+            去发牌
+        </button>
+    </div>
+</div>
+</body>
+<script src="../JS-02/JS-02.js"></script>
+</html>
