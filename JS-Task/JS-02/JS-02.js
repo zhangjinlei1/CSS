@@ -7,7 +7,7 @@ var TotalArrStr;
 function playgame(){
     //判断人数是否为区间数
     gamenum=document.getElementById("num").value; //输入框赋予
-    if (gamenum>=4 && gamenum<=16){
+    if (gamenum>=6 && gamenum<=16){
         matching();
     }
     else {
