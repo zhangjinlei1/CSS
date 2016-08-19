@@ -40,6 +40,6 @@ function start(){
         alert("请先设置人数并且分配角色后");
     }
     else {
-
+        location.href="../JS-03/JS-03.html";
     }
 }
