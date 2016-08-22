@@ -1,13 +1,11 @@
-/**
- * Created by Raninbow on 2016/8/18.
- */
+/** Created by Raninbow on 2016/8/18. ...*/
 //玩家人数
-var gamenum;
+var gameNum;
 var TotalArrStr;
-function playgame(){
+function playGame(){
     //判断人数是否为区间数
-    gamenum=document.getElementById("num").value; //输入框赋予
-    if (gamenum>=6 && gamenum<=16){
+    gameNum=document.getElementById("num").value; //输入框赋予
+    if (gameNum>=4 && gameNum<=16){
         matching();
     }
     else {
@@ -18,22 +16,22 @@ function playgame(){
 function matching(){
     var TotalArr = [];
     var detail="";
-    var killernum=Math.floor(gamenum/4);//杀手数量
-    for (var  i = 0;i<=gamenum;i++){
+    var killerNum=Math.floor(gameNum/4);//杀手数量
+    for (var  i = 0;i<gameNum;i++){
         TotalArr[i] = "平民";
     }
-    for (var i = 0;i<=killernum;i++){
+    for (var i = 0;i<killerNum;i++){
         TotalArr[i] = "杀手";
     }
     TotalArr.sort(function () {
         return 0.5 - Math.random()
     });
-    for ( var j = 0; j < gamenum; j++) {
+    for ( var j = 0; j < gameNum; j++) {
         detail = detail+ (j + 1) + "号—" + TotalArr[j] + "<br/>";
         document.getElementById("role").innerHTML = detail;
     }
     TotalArrStr = JSON.stringify(TotalArr);
-    localStorage.sth = TotalArrStr;
+    sessionStorage.sth = TotalArrStr;
 }
 function start(){
     if(TotalArrStr==null){

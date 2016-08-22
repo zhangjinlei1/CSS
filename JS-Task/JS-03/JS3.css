@@ -67,6 +67,7 @@ img{
     background-color: #ffedc5;
     border: #fff solid 6px;
     position: relative;
+    height: 650px;
 }
 .flop-num{
     font-size: 4rem;
@@ -84,11 +85,11 @@ img{
     padding-top:1%;
 }
 .flop-img{
-    margin: 30% auto;
+    margin: 30% auto 0 auto;
     width: 55%;
 }
 .flop-font{
     font-size: 4rem;
     color: #29bde0;
-    padding-top: 10%;
+    padding-top: 6%;
 }
