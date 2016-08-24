@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background:red;
+            border: 1px solid;
+        }
+        input{
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<input type="button" value="变绿" onclick="ak('background','green')">
+<input type="button" value="变高" onclick="ak('height','500px')">
+<input type="button" value="变宽" onclick="ak('width','500px')">
+<input type="button" value="清除" onclick="ak('display','none')">
+<input type="button" value="显示" onclick="ak('display','block')">
+</body>
+<script>
+    function ak(b,c){
+        var div1=document.getElementById("div1");
+        div1.style[b]=c;
+    }
+</script>
+</html>

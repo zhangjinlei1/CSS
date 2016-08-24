@@ -36,8 +36,12 @@ img{
     width: 7%;
 }
 .page-footer{
-    padding-bottom: 5%;
-
+    padding: 1% 0;
+    max-width: 640px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #29bde0;
 }
 .page-footer-button{
     display:block;
@@ -92,4 +96,9 @@ img{
     font-size: 4rem;
     color: #29bde0;
     padding-top: 6%;
+}
+.game li{
+    float: left;
+    margin: 0 5.5% 3.5% 5.5%;
+    width: 22%;
 }
