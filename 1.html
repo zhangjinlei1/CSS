@@ -4,30 +4,47 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        #div1{
-            width: 200px;
-            height: 200px;
-            background:red;
-            border: 1px solid;
-        }
-        input{
-            width: 40px;
-            height: 40px;
-        }
     </style>
 </head>
 <body>
-<div id="div1"></div>
-<input type="button" value="变绿" onclick="ak('background','green')">
-<input type="button" value="变高" onclick="ak('height','500px')">
-<input type="button" value="变宽" onclick="ak('width','500px')">
-<input type="button" value="清除" onclick="ak('display','none')">
-<input type="button" value="显示" onclick="ak('display','block')">
+<input type="button" value="全部选择"onclick="a()">
+<input type="button" value="取消全选"onclick="b()">
+<input type="button" value="反选" onclick="vvv2()">
+<div id="cc">
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+    <input type="checkbox">我很帅
+</div>
 </body>
 <script>
-    function ak(b,c){
-        var div1=document.getElementById("div1");
-        div1.style[b]=c;
+    var c1=document.getElementById("cc");
+    var a2=c1.getElementsByTagName("input");
+    function a(){
+        for(var i=0;i<a2.length;i++){
+            a2[i].checked=true;
+        }
     }
+    function b() {
+        for (var i = 0; i < a2.length; i++) {
+            a2[i].checked = false;
+        }
+    }
+    function vvv2(){
+        for(var i=0;i<a2.length;i++){
+            console.log(a2[i].checked);
+            if ( a2[i].checked==true )
+            {
+                 a2[i].checked=false;
+            }
+            else {
+                 a2[i].checked=true;
+            }
+        }
+     }
+
 </script>
 </html>

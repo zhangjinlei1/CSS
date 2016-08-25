@@ -11,7 +11,7 @@ function rainbow(){
     clickNum++;
     console.log(clickNum);
     if(clickNum>Totalarr.length*2-1 ){ //点击次数大于数组长度时候，*2是因为要点击两次
-        return location.href="";
+        return location.href="JS3-2.html";
     }
     else{
         ess();

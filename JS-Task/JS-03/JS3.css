@@ -97,8 +97,30 @@ img{
     color: #29bde0;
     padding-top: 6%;
 }
+.game{
+    padding: 10% 0 30% 0;
+    overflow: hidden;
+}
 .game li{
+    width: 24%;
+    display: inline-block;
+    margin: 0 0 7% 7%;
     float: left;
-    margin: 0 5.5% 3.5% 5.5%;
-    width: 22%;
+}
+.game div {
+    background-color: #f5c97b;
+    border: 5px #FFFFFF solid;
+}
+.game span {
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    padding: 28% 0 16% 0;
+}
+.game p{
+    background-color: #83b09a;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 4% 0;
 }
