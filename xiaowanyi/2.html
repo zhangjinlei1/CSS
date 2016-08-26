@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>万年历</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-weight: 900;
+        }
+        li{
+            list-style-type: none;
+            width: 25%;
+            text-align: center;
+            background: rgb(68,65,68);
+            color: #fff;
+            font-size: 2rem;
+            margin: 3.9%;
+            float: left;
+            border: solid 1px rgb(68,65,68);
+        }
+        #div1{
+            max-width: 400px;
+            margin: auto;
+            background: rgb(242,232,241);
+            overflow: hidden;
+            min-width: 400px;
+        }
+        li p{
+           padding: 6% 0;
+        }
+        #txt1{
+            overflow: hidden;
+            width: 92%;
+            margin: 3% auto;
+            background: rgb(246,239,247);
+            border: 5px solid #ffffff;
+            padding: 5% 3%;
+            box-sizing: border-box;
+        }
+        #txt1 h2{
+            padding-bottom: 7%;
+        }
+        .me{
+            color: rgb(215,100,131);
+            background: rgb(255,255,255);
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <ul>
+        <li class="me"><p>1</p><p>JAN</p></li>
+        <li><p>2</p><p>FER</p></li>
+        <li><p>3</p><p>MAR</p></li>
+        <li><p>4</p><p>APR</p></li>
+        <li><p>5</p><p>MAY</p></li>
+        <li><p>6</p><p>JUN</p></li>
+        <li><p>7</p><p>JUL</p></li>
+        <li><p>8</p><p>AUG</p></li>
+        <li><p>9</p><p>SEP</p></li>
+        <li><p>10</p><p>OCT</p></li>
+        <li><p>11</p><p>HOV</p></li>
+        <li><p>12</p><p>DEC</p></li>
+    </ul>
+    <div id="txt1">
+        <h2>1月节日</h2>
+        <p>1月1日 元旦节</p>
+    </div>
+</div>
+</body>
+<script>
+window.onload=function () {
+    var arr=['1月1日 元旦',
+        '2月14日 情人节',
+        '3月8日 国际劳动妇女节',
+        '4月份 清明节',
+        '5月1日 国际劳动节<br>5月4日 中国青年节',
+        '6月1日 国际儿童节 ',
+        '7月1日 中国共产党诞生日',
+        '8月1日 中国人民解放军建军节',
+        '9月3日 中国抗日战争胜利纪念日<br>9月10日 中国教师节',
+        '10月1日 国庆节',
+        '11月11日 光棍节',
+        '12月24日 圣诞节'
+    ];
+    var div1 = document.getElementById("div1");
+    var liNum = div1.getElementsByTagName("li");
+    var txtNum = div1.getElementsByTagName("div")[0];
+    for(var i=0;i<liNum.length;i++){
+        liNum[i].index=i;
+        liNum[i].onmouseover=function(){
+            for (var i=0; i<liNum.length; i++){
+                liNum[i].className="";
+            }
+            this.className="me";
+            txtNum.innerHTML='<h2>'+(this.index+1)+'月节日</h2><p>'+arr[this.index]+'</p>';
+    }
+}
+}
+
+</script>
+</html>
