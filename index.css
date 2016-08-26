@@ -17,6 +17,7 @@ body{
 .boss h1{
     color: #746ED0;
     font-size: 20px;
+    margin: 20px;
 }
 .css li{
     list-style-type:none;
