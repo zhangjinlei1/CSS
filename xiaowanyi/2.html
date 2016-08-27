@@ -71,7 +71,6 @@
 </div>
 </body>
 <script>
-window.onload=function () {
     var arr=['1月1日 元旦',
         '2月14日 情人节',
         '3月8日 国际劳动妇女节',
@@ -91,13 +90,12 @@ window.onload=function () {
     for(var i=0;i<liNum.length;i++){
         liNum[i].index=i;
         liNum[i].onmouseover=function(){
-            for (var i=0; i<liNum.length; i++){
-                liNum[i].className="";
-            }
-            this.className="me";
-            txtNum.innerHTML='<h2>'+(this.index+1)+'月节日</h2><p>'+arr[this.index]+'</p>';
+        for (var i=0; i<liNum.length; i++){
+         liNum[i].className="";
+        }
+        this.className="me";
+        txtNum.innerHTML='<h2>'+(this.index+1)+'月节日</h2><p>'+arr[this.index]+'</p>';
     }
-}
 }
 
 </script>
