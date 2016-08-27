@@ -124,3 +124,102 @@ img{
     font-size: 2.2rem;
     padding: 4% 0;
 }
+/*任务4*/
+.content{
+    background:#f0f0f0;
+    padding: 5% 2%;
+
+}
+.content-header{
+    background: #FFF;
+    border: solid #c9c9c9 1px;
+}
+.content-days{
+    font-size: 3rem;
+    color: #29bde0;
+    padding: 3% 3%;
+    vertical-align: middle;
+    text-align: center;
+    cursor:pointer;
+}
+.drop-down{
+    width: 5%;
+    float: right;
+    padding:3% 0;
+}
+.content-inside{
+    background: #FFF;
+    border: solid #c9c9c9 1px;
+    margin-top: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.arrow-top{
+    position: absolute;
+    left: 46%;
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;  /* 左边框的宽 */
+    border-right: 14px solid transparent; /* 右边框的宽 */
+    border-bottom: 14px solid #FFFFFF; /* 下边框的长度|高,以及背景色 */
+}
+.content-subject{
+    width: 90%;
+    float: right;
+    border-left: solid 2px #c9c9c9;
+}
+.content-subject li{
+    list-style-type: none;
+    width: 80%;
+    margin:0 0 3% 13%;
+    background: #24a7c6;
+    color: #FFF;
+    text-align: center;
+    font-size: 3.0rem;
+    position: relative;
+    padding: 3% 0;
+}
+.content-subject ul{
+    margin: 10% 0;
+}
+.arrow-left{
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid transparent;  /* 下边框的高 */
+    border-top: 13px solid transparent; /* 上方边框的高 */
+    border-right: 18px solid #24a7c6; /* 右边框的长度|宽度，以及背景色 */
+    position: absolute;
+    left: -4%;
+    top: 35%;
+}
+.content-img{
+    position: absolute;
+    border: solid 2px #c9c9c9;
+    left: 4%;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 15px 10px 10px 17px;
+    top: 6%;
+}
+.content-night{
+    background: url("../JS-04/JS4-2.png") no-repeat;
+    width: 38px;
+    height: 41px;
+}
+.content-img-bo{
+    position: absolute;
+    border: solid 2px #c9c9c9;
+    left: 4%;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 18px 14px 10px 15px;
+    top: 53%;
+}
+.content-day{
+    background: url("../JS-04/JS4-3.png") no-repeat;
+    width: 38px;
+    height: 41px;
+}
+#killer{
+    cursor:pointer;
+}

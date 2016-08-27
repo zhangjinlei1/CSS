@@ -19,5 +19,5 @@ for(var i=0;i<Totalarr.length;i++){
     ul.appendChild(liList);
 }
 function gameGo(){
-    location.href="JS3-1.html";
+    location.href="../JS-04/JS4-01.html";
 }
