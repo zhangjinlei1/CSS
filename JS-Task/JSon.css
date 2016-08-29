@@ -28,7 +28,7 @@ img{
 }
 .header-left{
     float: left;
-    width: 5%;
+    width: 7%;
 }
 .header-right{
     float: right;
@@ -106,9 +106,9 @@ img{
     display: inline-block;
     margin: 0 0 7% 7%;
     float: left;
+    background-color: #f5c97b;
 }
 .game div {
-    background-color: #f5c97b;
     border: 5px #FFFFFF solid;
 }
 .game span {
@@ -124,7 +124,7 @@ img{
     font-size: 2.2rem;
     padding: 4% 0;
 }
-/*任务4*/
+/*任务4-1*/
 .content{
     background:#f0f0f0;
     padding: 5% 2%;
@@ -222,4 +222,63 @@ img{
 }
 #killer{
     cursor:pointer;
+}
+/*任务4-2*/
+.Killer-eyes{
+    background: #b9e9f5;
+    overflow: hidden;
+    padding:  2% 10%;
+}
+.Killer-eyes span{
+    font-size: 2.6rem;
+    padding: 2% 0;
+    display: inline-block;
+}
+.Killer-eyes img{
+    float: right;
+    width: 10%;
+}
+.Killer-eyes-bottom{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #b9e9f5;
+    margin-left: 16%;
+}
+.Killer-eyes-font{
+    font-size: 2.2rem;
+    color: #FFF;
+    margin-left: 15%;
+}
+
+.boxLi span{
+    background-color:    #83b09a;
+}
+/*任务4-3*/
+.Play{
+    padding-bottom: 50%;
+}
+.content-Play{
+    text-align: right;
+    margin:5% 4% 0 0 ;
+}
+.content-Play img{
+    width: 10%;
+}
+.content-Cry{
+    text-align: center;
+}
+.content-Cry img{
+    width: 40%;
+}
+.content-process{
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+}
+.content-process p{
+    background: #24a7c6;
+    color: #FFFFFF;
+    font-size: 3.4rem;
 }
