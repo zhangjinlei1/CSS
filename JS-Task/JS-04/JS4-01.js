@@ -16,6 +16,6 @@ oDay.onclick=function(){
     }
 };
 oKiller.onclick=function(){
-    location.href='JS4-02.html';
+    location.href='JS4-02-1.html';
 };
 

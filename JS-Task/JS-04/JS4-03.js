@@ -41,7 +41,7 @@ console.log('平民数:'+PM);
 
 
 $('.page-footer-button').click(function(){
-    //location.href ="JS4-02.html";
+    //location.href ="JS4-02-1.html";
     if (SS===0){
         location.href ="JS4-04.html";
     }
@@ -49,7 +49,7 @@ $('.page-footer-button').click(function(){
         location.href ="JS4-04.html";
     }
     else {
-        location.href ="JS4-02.html";
+        location.href ="JS4-02-1.html";
     }
 });
 
