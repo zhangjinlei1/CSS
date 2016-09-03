@@ -101,23 +101,23 @@ img{
     padding: 10% 0 30% 0;
     overflow: hidden;
 }
-.game li{
+.LiSi{
     width: 24%;
     display: inline-block;
     margin: 0 0 7% 7%;
     float: left;
     background-color: #f5c97b;
 }
-.game div {
+.DivBox{
     border: 5px #FFFFFF solid;
 }
-.game span {
+.JueSe {
     display: block;
     font-size: 3rem;
     text-align: center;
     padding: 28% 0 16% 0;
 }
-.game p{
+.XuHao{
     background-color: #83b09a;
     color: #FFFFFF;
     text-align: center;
@@ -257,7 +257,7 @@ img{
 }
 /*任务4-3*/
 .Play{
-    padding-bottom: 50%;
+    padding-bottom: 20%;
 }
 .content-Play{
     text-align: right;
@@ -281,4 +281,15 @@ img{
     background: #24a7c6;
     color: #FFFFFF;
     font-size: 3.4rem;
+}
+.BjYs{
+    background: #5e5e5e;
+}
+.BjYs2{
+    background: #5e5e5e;
+}
+.GG li{
+    font-size: 2.5rem;
+    color: #FFF;
+    margin: 5% 0;
 }

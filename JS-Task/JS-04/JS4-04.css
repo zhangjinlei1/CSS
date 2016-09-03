@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Microsoft YaHei", serif;
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 590px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width: 470px){
+    html{
+        font-size: 34%;
+    }
+}
+.whole{
+    max-width: 640px;
+    margin: auto;
+    min-width: 320px;
+}
+.whole-top{
+    background-color: #29bde0;
+}
+.header{
+    overflow: hidden;
+    padding: 3% 3%;
+}
+.header a:nth-child(1){
+    display: inline-block;
+    width: 8%;
+    float: left;
+}
+.header p{
+    text-align: center;
+    font-size: 3.4rem;
+    color: #FFFFFF;
+}
+.header a:nth-child(2){
+    display: inline-block;
+    width: 7%;
+    float: right;
+    padding-top:0.5% ;
+}
+.header-one{
+    text-align: center;
+    padding: 2% 0;
+}
+.header-one img{
+    width: 55%;
+}
+.header-two{
+    font-size: 3.3rem;
+    color: #ffc865;
+    width: 75%;
+    margin: auto;
+}
+.header-three{
+    font-size: 2.6rem;
+    width: 75%;
+    margin: 5% auto 0 auto;
+    color: #FFFFFF;
+    padding-bottom: 3%;
+}
+.header-three p{
+    padding: 0.5% 0;
+}
+.header-three span{
+    padding: 0 4%;
+}
+.op{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+.op div{
+    font-size: 3rem;
+    padding:3% 0 2% 0 ;
+}
+.op span{
+    float: right;
+    font-size: 2rem;
+    color: #c7c7c7;
+    padding-top: 2%;
+}
+.op p{
+    font-size: 2.6rem;
+    color: #c7c7c7;
+    padding-top: 1%;
+}
+.whole-bottom ul{
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 4%;
+}
+.go-game{
+    background-color: rgba(152,222,239,0.5);
+    text-align: center;
+    font-size: 4.0rem;
+    padding: 1% 0;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+    width: 100%;
+    min-width: 320px;
+}
+.go-one{
+    width: 42.3%;
+    display: inline-block;
+    background-color: #f66f6f;
+    color: #FFFFFF;
+    padding: 3% 0;
+    border-radius: 1rem;
+}
+.go-two{
+    width: 42.3%;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #fbb435;
+    padding: 3% 0;
+    border-radius: 1rem;
+}

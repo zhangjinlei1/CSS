@@ -32,7 +32,6 @@ function matching(){
     }
     TotalArrStr = JSON.stringify(TotalArr);
     sessionStorage.sth = TotalArrStr;
-
 }
 function start(){
     if(TotalArrStr==null){

@@ -11,6 +11,10 @@ for(var i=0;i<Totalarr.length;i++){
     var liList=document.createElement("li");
     var PNum=document.createElement("p");
     var SpanNum=document.createElement("span");
+    divNum.setAttribute("class","DivBox");
+    liList.setAttribute("class","LiSi");
+    SpanNum.setAttribute("class","JueSe");
+    PNum.setAttribute("class","XuHao");
     SpanNum.innerHTML=Totalarr[i];
     PNum.innerHTML=i+1+"号";
     divNum.appendChild(SpanNum);
