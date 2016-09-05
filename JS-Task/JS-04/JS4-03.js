@@ -60,7 +60,7 @@ $('.page-footer-button').click(function(){
            location.href='JS4-04.html';
            break;
        default:
-           location.href='JS4-02.html';
+           location.href='Js4-02.html';
    }
 });
 
