@@ -64,6 +64,7 @@ $('.page-footer-button').click(function(){
    }
 });
 
+
 //$('.page-footer-button').click(function(){
 //    //location.href ="JS4-02.html";
 //    if (SS===0){
