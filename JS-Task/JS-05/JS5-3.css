@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: Microsoft YaHei, serif;
+}
+.wrap{
+    max-width: 1200px;
+    border: solid 1px #a8a8a8;
+    margin: auto;
+    padding: 3% 2%;
+    box-sizing: border-box;
+    min-width: 1200px;
+}
+.wrap h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #1d7ad9;
+    margin-bottom: 5%;
+}
+.wrap>div{
+    margin-bottom: 3%;
+    font-size: 2rem;
+}
+.wrap>div>p{
+    width: 15%;
+    display: inline-block;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    padding: 1.5% 3%;
+    font-size: 1.5rem;
+    border-radius: 9%;
+    color: #FFFFFF;
+    margin-left: 3%;
+}
+.Editor{
+    background: #f66f6f;
+}
+.Delete{
+     background: #4cae4c;
+}
+.goHome{
+    background: #31b0d5;
+}
+.goTrue{
+    background: #000000;
+}
+/*任务5-3增加样式*/
+.text-css{
+    font-size: 2rem;
+    padding: 1%;
+    width: 80%;
+}
+.radio-css{
+    margin-right: 2%;
+}
+.radio-css input{
+    margin-right: 1%;
+}
+.text-css-2{
+    width: 80%;
+    font-size: 2rem;
+    padding: 1%;
+    height: 50px;
+}

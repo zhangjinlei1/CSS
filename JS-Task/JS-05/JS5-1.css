@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html{
+    font-family: "Microsoft YaHei", serif;
+    font-size: 62.5%;
+}
+
+.whole {
+    margin: 5% auto;
+    border: solid 1px #a8a8a8;
+    padding: 3% 5%;
+    box-sizing: border-box;
+    max-width: 1250px;
+}
+body{
+    font-size: 62.5%;
+}
+h1{
+    margin-bottom: 3%;
+    font-size: 3rem;
+    color: #1d7ad9;
+}
+.whole-header {
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.whole-header p {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 1.5% 0;
+    border-right: 1px #a8a8a8 solid;
+    background: #d6d6d6;
+    font-size: 2rem;
+}
+
+/*添加样式*/
+.SJ-on{
+    cursor:pointer;
+}
+.SJ-on span{
+    display: inline-block;
+    width: 25%;
+    padding: 1.5% 0;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px #a8a8a8 solid;
+}
+.Go{
+    float: right;
+    font-size: 5rem;
+    cursor:pointer;
+}
