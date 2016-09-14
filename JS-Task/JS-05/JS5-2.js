@@ -38,5 +38,7 @@ $(".btn-1").click(function(){
         alert("请填写完整的资料");
     }
 });
-
+$(".btn-2").click(function(){
+    location.href = "JS5-1.html";
+});
 
