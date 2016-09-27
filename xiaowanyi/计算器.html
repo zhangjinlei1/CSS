@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../JS-Task/jquery-3.1.0.min.js"></script>
+    <style>
+        div{
+            width: 800px;
+            background: #a0a0a0;
+            margin: auto;
+            text-align: center;
+            padding: 10% 0;
+        }
+        input{
+            width: 20%;
+            font-size: 2rem;
+        }
+        select{
+            font-size: 2rem;
+        }
+        button{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>计算器！！</h1>
+    <input type="number" id="num1">
+    <select>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2">
+    <button onclick="a()">=</button>
+    <input type="number" id="num3">
+</div>
+</body>
+<script>
+    function a(){
+        var num1=document.getElementById("num1").value;
+        var num2=document.getElementById("num2").value;
+        var anum;
+        var op=document.getElementsByTagName("select")[0].value;
+        switch (op){
+            case "+":
+                anum=parseInt(num1)+parseInt(num2);
+                console.log(num3);
+                break;
+            case "-":
+                anum=num1-num2;
+                console.log(num3);
+                break;
+            case "*":
+                anum=num1*num2;
+                console.log(num3);
+                break;
+            default:
+                anum=num1/num2;
+                console.log(num3);
+        }
+        document.getElementById("num3").value=anum;
+    }
+
+</script>
+</html>
