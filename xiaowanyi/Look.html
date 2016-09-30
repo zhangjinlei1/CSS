@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="../css/public.css">
+    <script>
+        (function(){
+            document.addEventListener('DOMContentLoaded',function(){
+                var html=document.documentElement;
+                var width=html.clientWidth;
+                if(width>768)width=768;
+                html.style.fontSize=width/6.4+'px';
+            },false)
+        })()
+    </script>
+    <title>Document</title>
+    <style>
+        .body_homePage{
+            position:relative;
+            width:5.68rem;
+            margin:0 auto;
+
+        }
+        .show_lastGame{
+            position:relative;
+            height:10.58vh;
+            width:100%;
+            border:1px solid #dad6d6;
+            text-align:center;
+            background-color:#fff;
+        }
+
+        .show_lastGame p{
+            font-size:0.3484rem;
+            font-weight:700;
+            letter-spacing: 1vw;
+            line-height:10.58vh;
+            color:#9a9a9a;
+        }
+        .show_lastGame_Icon_right{
+            position:absolute;
+            top:3.467vh;
+            right:0.14rem;
+            width:0.24rem;
+            height:0.4rem;
+        }
+        .show_lastGame_Icon_right img{
+            display:block;
+            width:100%;
+        }
+        .show_nowGame_wrap{
+            position:relative;
+            height:70.89vh;
+            margin-top:2.46vh;
+            border:1px solid #dad6d6;
+            background-color:white;
+            text-align:center;
+        }
+        .show_nowGame_name{
+            height:8.3vh;
+            width:100%;
+            color:#fbb435;
+            font-size:0.3774rem;
+            line-height: 8.3vh;
+            border-bottom:1px solid #fbb435;
+
+        }
+
+        .show_nowGame_list{
+            padding-top:2vh;
+            height:17.6vh;
+            text-align:center;
+
+        }
+
+        .show_nowGame_list_name{
+            width:4.7rem;
+
+            margin:0 auto;
+        }
+        .show_nowGame_list_name h3{
+            height:12.5vh;
+            font-size:0.3208rem;
+            font-weight:500;
+            letter-spacing: 1vw;
+            line-height: 12.5vh;
+            color:white;
+            background-color:#69d1e9;
+        }
+        .show_nowGame_list_message{
+            font-size:0.2453rem;
+            color:#787878;
+            margin-top:2vh;
+        }
+
+        .show_nowGame_nav{
+            height: 0.18rem;
+            width: 1.2rem;
+            margin: 1.3vh auto;
+        }
+        .show_nowGame_navCircle{
+            float:left;
+
+            width:0.18rem;
+            height:0.18rem;
+            margin: 0 0.05rem;
+            border-radius:50%;
+            background-color:#f0f0f0;
+        }
+
+        .show_nowGame_nvaCircleActive,
+        .show_nowGame_navCircle:hover{
+
+
+            background-color:#fbb435;
+        }
+        .show_nowGame_Icon_right{
+            position:absolute;
+            top:34vh;
+            right:0.1rem;
+            width:0.28rem;
+            height:0.56rem;
+            /*width:28 height:56*/
+        }
+        .show_nowGame_Icon_right img{
+            display:block;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="public_header">
+    <div class="public_header_leftMenu">
+        <img class="public_header_leftImg" src="../image/header/indexHeader.png" alt="">
+    </div>
+</div>
+<div class="public_body">
+    <div class="body_homePage">
+        <div class="show_lastGame">
+            <p >上次游戏:捉鬼杀人</p>
+            <div class="show_lastGame_Icon_right">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="show_nowGame_wrap">
+            <h2 class="show_nowGame_name">杀人狼</h2>
+            <div class="show_nowGame_list">
+                <div class="show_nowGame_list_name">
+                    <h3>简化版</h3>
+                </div>
+                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
+            </div>
+
+            <div class="show_nowGame_list">
+                <div class="show_nowGame_list_name">
+                    <h3>普通版</h3>
+                </div>
+                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
+            </div>
+
+            <div class="show_nowGame_list">
+                <div class="show_nowGame_list_name">
+                    <h3>进阶版</h3>
+                </div>
+                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
+            </div>
+            <div class="show_nowGame_nav">
+                <div class="show_nowGame_navCircle show_nowGame_nvaCircleActive"></div>
+                <div class="show_nowGame_navCircle"></div>
+                <div class="show_nowGame_navCircle"></div>
+                <div class="show_nowGame_navCircle"></div>
+            </div>
+            <div class="show_nowGame_Icon_right">
+                <img src="../image/header/bar-orangeright.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
