@@ -1,258 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh" ng-app="myApp">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <link rel="stylesheet" href="../css/public.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
     <script>
         (function(){
-            document.addEventListener('DOMContentLoaded',function(){
+            document.addEventListener("DOMContentLoaded",function(){
                 var html=document.documentElement;
-                var width=html.clientWidth;
-                if(width>768)width=768;
-                html.style.fontSize=width/6.4+'px';
-            },false)
+                var windowWidth=html.clientWidth;
+                if(windowWidth>640)windowWidth=640;
+                html.style.fontSize=windowWidth/6.4+'px';
+            },false);
         })()
     </script>
-    <title>Document</title>
-    <style>
-        /*
-   //rem 来配备设备的宽度，从而来达到在各种手机设备中 元素的宽的比例正常
-   //vh css3的属性 将移动手机viewport的高平均分成100份.1vh代表一份。来匹配手机可视区viewport的高，从而减少出现下拉条的出现
-*/
-
-        html,body,p,h2,h3,h4,pre,button,div{
-            margin:0;
-            padding:0;
-        }
-        html{
-            margin:0 auto;
-            max-width:768px;
-            min-width:320px;
-        }
-        body{
-            width:100%;
-            height:100%;
-            max-width:768px;
-            min-width:320px;
-            position:relative;
-            font-family:"Microsoft JhengHei Ui";
-        }
-        /*header*/
-        .public_header{
-            position:fixed;
-            top:0;
-            left:0;
-            right:0;
-            height:8vh;
-            max-width:768px;
-            min-width:320px;
-            margin:0 auto;
-            border-bottom:1px solid #74d4eb;
-            z-index:2;
-            background-color:#29bde0;
-
-        }
-
-        .public_header img{
-            display:block;
-            width:100%;
-        }
-
-        .public_header_leftMenu{
-            position:absolute;
-            left:0.22rem;
-            top:0;
-            bottom:0;
-            margin:auto;
-            width:0.44rem;
-            height:0.44rem;
-        }
-
-        .public_header_rightMenu{
-            position:absolute;
-            right:0.22rem;
-            top:0;
-            bottom:0;
-            margin:auto;
-            width:0.44rem;
-            height:0.44rem;
-        }
-        /*body*/
-        .public_body{
-            height:89.5vh;
-            margin-top:8vh;
-            padding-top:2.5vh;
-            max-width:768px;
-            min-width:320px;
-            background-color:#f0f0f0;
-
-        }
-        .public_playerSet_wrap{
-            width:6.07rem;
-            margin:0 auto;
-        }
-        .body_homePage{
-            position:relative;
-            width:5.68rem;
-            margin:0 auto;
-
-        }
-        .show_lastGame{
-            position:relative;
-            height:10.58vh;
-            width:100%;
-            border:1px solid #dad6d6;
-            text-align:center;
-            background-color:#fff;
-        }
-
-        .show_lastGame p{
-            font-size:0.3484rem;
-            font-weight:700;
-            letter-spacing: 1vw;
-            line-height:10.58vh;
-            color:#9a9a9a;
-        }
-        .show_lastGame_Icon_right{
-            position:absolute;
-            top:3.467vh;
-            right:0.14rem;
-            width:0.24rem;
-            height:0.4rem;
-        }
-        .show_lastGame_Icon_right img{
-            display:block;
-            width:100%;
-        }
-        .show_nowGame_wrap{
-            position:relative;
-            height:70.89vh;
-            margin-top:2.46vh;
-            border:1px solid #dad6d6;
-            background-color:white;
-            text-align:center;
-        }
-        .show_nowGame_name{
-            height:8.3vh;
-            width:100%;
-            color:#fbb435;
-            font-size:0.3774rem;
-            line-height: 8.3vh;
-            border-bottom:1px solid #fbb435;
-
-        }
-
-        .show_nowGame_list{
-            padding-top:2vh;
-            height:17.6vh;
-            text-align:center;
-
-        }
-
-        .show_nowGame_list_name{
-            width:4.7rem;
-
-            margin:0 auto;
-        }
-        .show_nowGame_list_name h3{
-            height:12.5vh;
-            font-size:0.3208rem;
-            font-weight:500;
-            letter-spacing: 1vw;
-            line-height: 12.5vh;
-            color:white;
-            background-color:#69d1e9;
-        }
-        .show_nowGame_list_message{
-            font-size:0.2453rem;
-            color:#787878;
-            margin-top:2vh;
-        }
-
-        .show_nowGame_nav{
-            height: 0.18rem;
-            width: 1.2rem;
-            margin: 1.3vh auto;
-        }
-        .show_nowGame_navCircle{
-            float:left;
-
-            width:0.18rem;
-            height:0.18rem;
-            margin: 0 0.05rem;
-            border-radius:50%;
-            background-color:#f0f0f0;
-        }
-
-        .show_nowGame_nvaCircleActive,
-        .show_nowGame_navCircle:hover{
-
-
-            background-color:#fbb435;
-        }
-        .show_nowGame_Icon_right{
-            position:absolute;
-            top:34vh;
-            right:0.1rem;
-            width:0.28rem;
-            height:0.56rem;
-            /*width:28 height:56*/
-        }
-        .show_nowGame_Icon_right img{
-            display:block;
-            width:100%;
-        }
-    </style>
+    <title>查看身份</title>
+    <link href="aaaa.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/header.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" href="aaaa.css">
 </head>
 <body>
 <div class="public_header">
     <div class="public_header_leftMenu">
-        <img class="public_header_leftImg" src="../image/header/indexHeader.png" alt="">
+        <img class="public_header_leftImg" src="headerbar-back.png" alt="">
+    </div>
+    <!-- 这里可以自己天加一个指令来动态控制 -->
+    <div class="public_header_rightMenu">
+        <img class="public_header_leftImg" src="headerbar-close.png" alt="">
     </div>
 </div>
-<div class="public_body">
-    <div class="body_homePage">
-        <div class="show_lastGame">
-            <p >上次游戏:捉鬼杀人</p>
-            <div class="show_lastGame_Icon_right">
-                <img src="" alt="">
-            </div>
-        </div>
-        <div class="show_nowGame_wrap">
-            <h2 class="show_nowGame_name">杀人狼</h2>
-            <div class="show_nowGame_list">
-                <div class="show_nowGame_list_name">
-                    <h3>简化版</h3>
-                </div>
-                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
-            </div>
-
-            <div class="show_nowGame_list">
-                <div class="show_nowGame_list_name">
-                    <h3>普通版</h3>
-                </div>
-                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
-            </div>
-
-            <div class="show_nowGame_list">
-                <div class="show_nowGame_list_name">
-                    <h3>进阶版</h3>
-                </div>
-                <p class="show_nowGame_list_message">有1个用户玩过此游戏</p>
-            </div>
-            <div class="show_nowGame_nav">
-                <div class="show_nowGame_navCircle show_nowGame_nvaCircleActive"></div>
-                <div class="show_nowGame_navCircle"></div>
-                <div class="show_nowGame_navCircle"></div>
-                <div class="show_nowGame_navCircle"></div>
-            </div>
-            <div class="show_nowGame_Icon_right">
-                <img src="../image/header/bar-orangeright.png" alt="">
-            </div>
+<div class="viewCard-wrap">
+    <div class="viewCard-block">
+        <div class="viewCard-num"><span>1</span></div>
+        <div class="viewCard-logo">
+            <img src="spirit-card-behind.png" >
         </div>
     </div>
+    <div class="viewCard-footer">
+        <button type="button" class="viewCard-btn">查看3号身份</button>
+    </div>
 </div>
+<!--<div class="wrap" ui-view=""></div>-->
+<!--<script src="../vendor/jq/jquery-3.0.0.js"></script>-->
+<!--<script src="../vendor/angular/angular.js"></script>-->
+<!--<script src="../vendor/oclazyLoad/ocLazyLoad.js"></script>-->
+<!--<script src="../vendor/angular-ui-router/angular-ui-router.min.js"></script>-->
+<!--<script src="../js/router.js"></script>-->
+<!--<script src="../js/service/gameService.js"></script>-->
+<!--<script src="js/controllers.js"></script>-->
 </body>
 </html>

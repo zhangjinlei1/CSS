@@ -8,7 +8,7 @@
 </head>
 <body ng-app="myApp">
     <div ng-controller="cartController" class="container">
-        <table class="table">
+        <table class="table" ng-show="cart.length">
             <thead>
                 <tr>
                     <th>产品编号</th>
@@ -26,10 +26,18 @@
                     <td>{{x.quantity}}</td>
                     <td>{{x.price}}</td>
                     <td>{{x.price*x.quantity}}</td>
-                    <td><button type="button" class="btn btn-link">移除</button></td>
+                    <td><button type="button" class="btn btn-danger" ng-click="remove(x.id)">移除</button></td>
                 </tr>
+            <tr>
+                <td>总购买价</td>
+                <td>{{totalPrice()}}</td>
+                <td>总购买数量</td>
+                <td>{{totalNum()}}</td>
+                <td colspan="2"><button type="button" class="btn btn-danger" ng-click="DeleteOn()">清空购物车</button></td>
+            </tr>
             </tbody>
         </table>
+        <p ng-show="!cart.length">您的购物车为空</p>
     </div>
 </body>
 <script src="main.js"></script>
