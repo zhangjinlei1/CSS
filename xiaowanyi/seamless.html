@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝滚动</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            font-size: 62.5%;
+        }
+        body{
+            background: #000000;
+        }
+        #div1{
+            margin: auto;
+            width: 108rem;
+            height: 23rem;
+            position: relative;
+            overflow: hidden;
+        }
+        #ul1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #ffffff;
+        }
+        #ul1 img{
+            box-sizing: border-box;
+            border: solid 0.3rem #ffffff;
+            width: 18rem;
+            height: 23rem;
+        }
+        #ul1 li{
+            width: 18rem;
+            height: 23rem;
+            float:left;
+        }
+        #wrap{
+            margin: 15rem auto;
+        }
+        #div2{
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        #div2 button{
+            margin-right: 2rem;
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            background: #1d7ad9;
+            border-radius: 2rem;
+        }
+        h1{
+            color: #ffffff;
+            margin-bottom: 3rem;
+            font-size: 3rem;
+        }
+        @media screen and (max-width: 500px) {
+            *{
+                font-size: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+
+    <div id="div2">
+        <h1>嘿嘿嘿~</h1>
+        <button id="btn1">向左</button>
+        <button id="btn2">向右</button>
+    </div>
+    <div id="div1">
+        <ul id="ul1">
+            <li><img src="../Red/1.jpg" alt="red"></li>
+            <li><img src="../Red/2.jpg" alt="red"></li>
+            <li><img src="../Red/3.jpg" alt="red"></li>
+            <li><img src="../Red/4.jpg" alt="red"></li>
+            <li><img src="../Red/5.jpg" alt="red"></li>
+            <li><img src="../Red/6.jpg" alt="red"></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    var oDiv1=document.getElementById("div1");
+    var oUl=document.getElementById("ul1");
+    var oLi=document.getElementsByTagName("li");
+    var speed=2;
+    oUl.innerHTML=oUl.innerHTML+oUl.innerHTML;
+    oUl.style.width=oLi[0].offsetWidth*oLi.length+"px";
+    function Red(){
+        if (oUl.offsetLeft<-oUl.offsetWidth/2){
+            oUl.style.left="0";
+        }
+        if(oUl.offsetLeft>0){
+            oUl.style.left=-oUl.offsetWidth/2+"px";
+        }
+        oUl.style.left=oUl.offsetLeft+speed+"px";
+    }
+    var timer=setInterval(Red,30);
+    oDiv1.onmouseover=function(){
+        clearInterval(timer);
+    };
+    oDiv1.onmouseout=function(){
+        timer=setInterval(Red,30);
+    };
+    document.getElementById("btn1").onclick=function(){
+        speed=-2;
+    };
+    document.getElementById("btn2").onclick=function(){
+        speed=2;
+    }
+</script>
+</html>
