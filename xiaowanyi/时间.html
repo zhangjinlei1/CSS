@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <title>时间</title>
+    <style>
+        body{
+            background: #000000;
+        }
+        .wNv{
+            text-align: center;
+            font-size: 6rem;
+            color: #ffffff;
+        }
+        /*img{*/
+            /*max-width: 60px;*/
+        /*}*/
+    </style>
+</head>
+<body >
+<div class="wNv">
+    <img src="../img/images/0.png">
+    <img src="../img/images/0.png">
+    :
+    <img src="../img/images/0.png">
+    <img src="../img/images/0.png">
+    :
+    <img src="../img/images/0.png">
+    <img src="../img/images/0.png">
+</div>
+</body>
+<script>
+
+    function toDou(n){
+        if(n<10){
+            return "0"+n;
+        }
+        else {
+            return ""+n;
+        }
+    }
+    var aImg = document.getElementsByTagName("img");
+//    var str = "012321";
+    function tick(){
+            var oDate = new Date();
+            var str =toDou(oDate.getHours()) +toDou(oDate.getMinutes())+toDou(oDate.getSeconds());
+            for (var i=0;i<aImg.length;i++){
+                aImg[i].src='../images/'+str.charAt(i)+'.png';
+            }
+    }
+    setInterval(tick,1000);
+    tick();
+//为何图片不能自定义大小
+</script>
+</html>

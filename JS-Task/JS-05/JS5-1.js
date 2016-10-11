@@ -17,14 +17,14 @@ $.ajax({
                 var box = "<li class='SJ-on'>" +
                     "<span class='ID-ON'>" + students[i].id + "</span>" +
                     "<span>" + students[i].name + "</span>" +
-                    "<span>" + typeArr[students[i].type-1] + "</span><span>" + Year + '年' + [Month+1] + '月' + Sdote + '日' + "</span>" ;
+                    "<span>" + typeArr[students[i].type - 1] + "</span><span>" + Year + '年' + [Month + 1] + '月' + Sdote + '日' + "</span>";
                 $(".SJ").append(box);
             }
             $('.SJ-on').click(function () {
-                var liSum=$(this).index();
-                var data= students[liSum].id;
+                var liSum = $(this).index();
+                var data = students[liSum].id;
                 console.log(data);
-                sessionStorage.data=data;
+                sessionStorage.data = data;
                 console.log(data);
                 location.href = 'JS5-3.html';
             });

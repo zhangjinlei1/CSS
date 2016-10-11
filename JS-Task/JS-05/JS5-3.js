@@ -109,7 +109,7 @@ $(".goTrue").click(function(){                          //确认修改
         },
         success: function () {
             alert("修改成功");
-            location.href = "JS5-1.html";
+            locati3on.href = "JS5-1.html";
         }
     });
 });
